@@ -1,0 +1,47 @@
+/* CSS partie formulaire */
+
+
+h1{
+    text-align: center;
+
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*centrer le formulaire verticalement */
+  }
+  
+
+label,input{
+    width: 160px;
+    border: 2px solid #ccc; /* ajoute une bordure de 2px solide avec la couleur grise */
+    border-radius: 4px; /* arrondit les coins de l'input */
+    padding: 8px; /* ajoute un espace de 8px entre le contenu et la bordure */
+    font-size: 16px; /* définit la taille de police à 16px */
+    outline: none; /* supprime le contour bleu par défaut lorsqu'on clique sur l'input */
+    transition: border-color 0.3s ease-in-out; /* ajoute une transition fluide lorsqu'on passe la souris sur l'input */
+    }
+      
+input:hover, input:focus {
+    border-color: #6c5ce7; /* change la couleur de bordure en violet lorsque la souris passe sur l'input ou lorsqu'il est sélectionné */
+    }
+      
+
+button{
+    width: 330px;
+ 
+    border-radius: 20px; /* définir le rayon de courbure */
+    padding: 10px 20px; /* ajuster le rembourrage pour le bouton */
+    background-color: #4CAF50; /* définir la couleur de fond */
+    color: white; /* définir la couleur du texte */
+    border: none; /* supprimer la bordure */
+    text-align: center; /* centrer le texte */
+    text-decoration: none; /* supprimer la décoration du texte */
+    display: inline-block; /* afficher le bouton en tant que bloc en ligne */
+    font-size: 16px; /* définir la taille de police */
+    margin: 5px; /* ajouter une marge autour du bouton */
+      }
+      

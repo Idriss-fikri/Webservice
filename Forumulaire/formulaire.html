@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="formulaire.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Formulaire de saisie </title>
+</head>
+
+<body>
+
+
+    <form action="#" id="formulaire">
+        <h1 id ="h1">Formulaire de saisie</h1>
+        <div class="Prenom">
+            <label> Votre prenom : </label>
+            <input id="prenom" type="text" placeholder="Quel est votre prenom ? " />
+
+        </div>
+
+        <br>
+
+        <div class="Nom">
+            <label> Votre nom : </label>
+            <input id="nom" type="text" placeholder="Quel est votre nom ? " />
+
+        </div>
+
+        <br>
+
+        <div class="age">
+            <label>Votre age : </label>
+            <input id="age" type="number" placeholder=" Quel est votre age ? " />
+        </div>
+        <br>
+
+        <div class="email">
+            <label> Votre email :</label>
+            <input id="email" type="email" placeholder="Quel est votre email ? " />
+        </div>
+        
+        <br>
+
+
+        <div class="pied-formulaire">
+            <button type="button" onclick="Affichage()"style="background-color:green">Envoyer le message</button>
+            <br>
+            <button type="button" onclick="SaveStorage()"style="background-color:blue"> Sauvgarder vos donées sur votre LocalStorage</button>
+            <br>
+            <button type="button" onclick="LoadShowStorage()" style="background-color: green;"> Charger et afficher vos donées de votre LocalStorage</button>
+            <br>
+            <button type="button" onclick="Vider()" value="Reset" style="background-color:red"> Vider les champs</button>
+
+        <div id="resultat"></div>
+
+        <div id="ShowStorage"></div>
+
+    </form>
+
+</body>
+</html>
